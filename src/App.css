@@ -19,7 +19,7 @@ code {
     monospace;
 }
 .container {
-  background-color: #282c34;
+  background-color: #a9c3f7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,19 +32,22 @@ code {
 
 h1,
 h2 {
+  color: blue;
   margin: 10px;
+  border-radius: 5px;
 }
 
 .answer {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   padding: 5px 10px 5px 45px;
-  width: 610px;
+  width: 550px;
   text-align: left;
   margin-top: 10px;
   position: relative;
   font-size: 22px;
   cursor: pointer;
   transition: ease-in-out, width 0.35s ease-in-out;
+  border-radius: 10px solid #fff;
 }
 
 .answer.selected {
@@ -62,19 +65,19 @@ h2 {
 }
 
 .results span.correct {
-  color: #c8ffbb;
+  color: #bbffff;
 }
 
 .results span.failed {
-  color: #f27c7c;
+  color: #7cdaf2;
 }
 
 .error {
-  color: #f27c7c;
+  color: #7cf299;
 }
 
 .letter {
-  color: #4f4c4c;
+  color: #1f1b1b;
   width: 30px;
   position: absolute;
   left: 0;
@@ -86,8 +89,8 @@ h2 {
 }
 
 .btn {
-  color: #4f4c4c;
-  background-color: #f4f4f4;
+  color: #e26a6a;
+  background-color: #551b1b;
   padding: 10px 50px;
   text-transform: uppercase;
   font-size: 18px;
@@ -97,6 +100,6 @@ h2 {
 
 .btn-primary {
   color: #4f4c4c;
-  background-color: #ffc107;
+  background-color: #fad872;
   font-weight: bold;
 }
